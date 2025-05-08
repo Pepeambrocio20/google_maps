@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnVerRuta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Ruta de Paseo" />
+
+        <Button
+            android:id="@+id/btnVerLugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Lugar Representativo"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnBuscarRestaurantes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar Restaurantes"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnStreetView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Street View"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnBuscarDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar Dirección"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
